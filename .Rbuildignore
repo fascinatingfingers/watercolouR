@@ -1,0 +1,15 @@
+.DS_Store
+.quarto
+.Rdata
+.Rhistory
+^_pkgdown\.yml$
+^.*\.Rproj$
+^\.github$
+^\.Rproj\.user$
+^codecov\.yml$
+^docs$
+^LICENSE\.md$
+^pkgdown$
+^README\.Rmd$
+^scratch$
+^vignettes-raw$

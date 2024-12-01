@@ -1,0 +1,23 @@
+Package: watercolouR
+Title: Utilities to explore watercolor paints
+Version: 0.0.0.9000
+Authors@R: 
+    person("Justin", "brantley", , "fascinatingfingers@icloud.com", role = c("aut", "cre"))
+Description: The watercolouR package provides analytic tools to explore
+    the color-making attributes and other physical characteristics of
+    watercolor pigments and paints. It includes precise colorimetric data
+    for single pigment dilutions and many two-pigment mixtures.
+License: GPL (>= 3)
+URL: https://github.com/fascinatingfingers/watercolouR,
+    https://fascinatingfingers.github.io/watercolouR/
+BugReports: https://github.com/fascinatingfingers/watercolouR/issues
+Imports: 
+    tibble
+Suggests: 
+    testthat (>= 3.0.0),
+    withr
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
