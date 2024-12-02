@@ -2,6 +2,15 @@
 "_PACKAGE"
 
 ## usethis namespace: start
-#' @importFrom lifecycle deprecated
+#' @importFrom fs dir_copy
+#' @importFrom fs dir_create
+#' @importFrom fs dir_ls
+#' @importFrom fs file_move
+#' @importFrom fs file_temp
+#' @importFrom fs path
+#' @importFrom magrittr %<>%
+#' @importFrom tibble tibble
+#' @importFrom utils capture.output
+#' @importFrom utils head
 ## usethis namespace: end
 NULL
