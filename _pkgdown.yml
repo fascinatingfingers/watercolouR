@@ -1,4 +1,13 @@
 url: https://fascinatingfingers.github.io/watercolouR/
 template:
   bootstrap: 5
-
+reference:
+  - title: "Developer tools"
+    desc: >
+      The following functions are intended to streamline common tasks for
+      package developers. They are not exported for use by typical package users.
+    contents:
+      - inst
+      - dev
+      - dev_check
+      - dev_check_helpers
