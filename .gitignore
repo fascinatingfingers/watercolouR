@@ -6,4 +6,5 @@
 .Ruserdata
 **/*_cache/*
 docs
+inst/doc
 scratch
