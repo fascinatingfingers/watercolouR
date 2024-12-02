@@ -31,9 +31,9 @@
     </div>
 
     <div class="section level2">
-      <h2 id="all-functions">All functions<a class="anchor" aria-label="anchor" href="#all-functions"></a></h2>
+      <h2 id="developer-tools">Developer tools<a class="anchor" aria-label="anchor" href="#developer-tools"></a></h2>
 
-
+      <div class="section-desc"><p>The following functions are intended to streamline common tasks for package developers. They are not exported for use by typical package users.</p></div>
 
 
     </div><div class="section level2">
@@ -43,10 +43,28 @@
 
       <dl><dt>
 
-          <code><a href="hello.html">hello()</a></code>
+          <code><a href="inst.html">inst()</a></code>
 
         </dt>
-        <dd>Hello, world!</dd>
+        <dd>Find paths to package files (internal function)</dd>
+      </dl><dl><dt>
+
+          <code><a href="dev.html">dev()</a></code>
+
+        </dt>
+        <dd>Open an R file and its corresponding test file (internal function)</dd>
+      </dl><dl><dt>
+
+          <code><a href="dev_check.html">dev_check()</a></code>
+
+        </dt>
+        <dd>Run code quality checks (internal function)</dd>
+      </dl><dl><dt>
+
+          <code><a href="dev_check_helpers.html">dev_lint()</a></code> <code><a href="dev_check_helpers.html">dev_document()</a></code> <code><a href="dev_check_helpers.html">dev_spell_check()</a></code> <code><a href="dev_check_helpers.html">dev_build_site()</a></code> <code><a href="dev_check_helpers.html">dev_publish_vignettes()</a></code> <code><a href="dev_check_helpers.html">dev_coverage()</a></code>
+
+        </dt>
+        <dd>Helper functions called by <code><a href="../reference/dev_check.html">dev_check()</a></code></dd>
       </dl></div>
   </main></div>
 
